@@ -21,7 +21,7 @@ body{
 	perspective: 600px;
 	background: #fff;
 	border-radius: 20px;
-	min-height: 75vh;
+	height: 75vh;
 	width: 460px;
 	transition: transform 1s;
 	transform-style: preserve-3d;
@@ -39,7 +39,7 @@ body{
 
 .is_flipped{
 	transform: rotateY(180deg);
-	min-height: 85vh;
+	height: 85vh;
 }
 
 
@@ -198,10 +198,10 @@ option{
 @media screen and (max-height: 600px) {
 	
 	.container{
-		min-height: 80vh;
+		height: 80vh;
 	}
 	.is_flipped{
-		min-height: 95vh;
+		height: 95vh;
 	}
 	
 }
