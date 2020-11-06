@@ -21,7 +21,7 @@ body{
 	perspective: 600px;
 	background: #fff;
 	border-radius: 20px;
-	height: 75vh;
+	height: 500px;
 	width: 460px;
 	transition: transform 1s;
 	transform-style: preserve-3d;
@@ -39,7 +39,7 @@ body{
 
 .is_flipped{
 	transform: rotateY(180deg);
-	height: 85vh;
+	height: 580px;
 }
 
 
@@ -194,41 +194,3 @@ option{
 	}
 }
 
-/* Height Responsiveness */
-@media screen and (max-height: 600px) {
-	
-	.container{
-		height: 80vh;
-	}
-	.is_flipped{
-		height: 95vh;
-	}
-	
-}
-
-@media screen and (min-height: 800px) {
-	.container{
-		min-height: 60vh;
-	}
-	.is_flipped{
-		min-height: 70vh;
-	}
-}
-
-@media screen and (min-height: 1000px) {
-	.container{
-		min-height: 50vh;
-	}
-	.is_flipped{
-		min-height: 60vh;
-	}
-}
-
-@media screen and (min-height: 1200px) {
-	.container{
-		min-height: 40vh;
-	}
-	.is_flipped{
-		min-height: 45vh;
-	}
-}
